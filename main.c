@@ -12,7 +12,7 @@ int main(int argc, char** argv) {
     int nSquadre = 0;
     int i;    
     struct squadra *lista;
-    int dimensione;
+    int dimensione=0;
     
     // SEZIONE 1 ------------------------------------------
     // ----------------------------------------------------

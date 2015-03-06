@@ -30,5 +30,7 @@ int ingrandisci(struct squadra **lista, int *dimensione) {
             nuovaLista[i] = (*lista)[i];
         r = 0;
     }
+    free(*lista);
+    *lista = nuovaLista;
     return r;
 }
